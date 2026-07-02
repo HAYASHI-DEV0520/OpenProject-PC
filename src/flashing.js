@@ -112,6 +112,7 @@ async function startLightSequence() {
   startBlinking();  
 }  
   
+
 async function fadeColor(r1, g1, b1, r2, g2, b2, duration) {  
   const stepInterval = duration / FADE_STEPS; // 100ms  
   
